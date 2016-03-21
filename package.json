@@ -1,0 +1,46 @@
+{
+  "name": "passport-salesforce-oauth2",
+  "version": "0.0.1",
+  "description": "Saleforce authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "salesforce",
+    "saleforce",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "author": {
+    "name": "Shahid Iqbal",
+    "email": "Shahid.mca2010@gmail.com",
+    "url": "http://nodejs-shahidiqbal.rhcloud.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shahid28/passport-salesforce-oauth2.git"
+  },
+  "bugs": {
+    "url": "http://github.com/shahid28/passport-salesforce-oauth2/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "passport-oauth2": "1.x.x"
+   },
+  "devDependencies": {
+    "make-node": "0.3.x",
+    "mocha": "1.x.x",
+    "chai": "2.x.x",
+    "chai-passport-strategy": "1.x.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  }
+}
